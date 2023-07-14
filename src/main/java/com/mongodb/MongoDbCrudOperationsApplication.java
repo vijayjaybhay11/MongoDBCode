@@ -8,7 +8,6 @@ import org.springframework.cache.annotation.EnableCaching;
 @EnableCaching
 //@EnableMongoRepositories("com.mongodb.dto")
 public class MongoDbCrudOperationsApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(MongoDbCrudOperationsApplication.class, args);
 	}

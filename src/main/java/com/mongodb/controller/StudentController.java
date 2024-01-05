@@ -22,7 +22,7 @@ public class StudentController {
 		log.info("Inside say Hello method {}",message);
 		return ResponseEntity.ok(message);
 	}
-
+// Comment added for checking
 	@PostMapping("/save")
 	public ResponseEntity<String> saveStudent(@RequestBody Student student){
 		Student std = studentService.createStudent(student);

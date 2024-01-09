@@ -19,7 +19,8 @@ public class StudentController {
 	@GetMapping("/hello")
 	public ResponseEntity<String> sayHello(){
 		String message =" Hi All Students From Pune Univercity";
-		log.info("Inside say Hello method {}",message);
+		// log.info("Inside say Hello method {}",message);
+		log.info("new log added",message);
 		return ResponseEntity.ok(message);
 	}
 

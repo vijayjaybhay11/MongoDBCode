@@ -1,6 +1,5 @@
 package com.mongodb.controller;
 
-import ch.qos.logback.core.joran.spi.ConsoleTarget;
 import com.mongodb.model.Student;
 import com.mongodb.service.StudentService;
 import lombok.extern.java.Log;
@@ -45,5 +44,4 @@ public class StudentController {
 		return ResponseEntity.status(HttpStatus.CREATED).body("Saved Successfully");
 
 	}
-
 }
